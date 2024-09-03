@@ -1,0 +1,76 @@
+body {
+  background: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cinema {
+  width: 600px;
+  margin: 60px auto;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.cell {
+  width: 35px;
+  height: 50px;
+  border-radius: 7px;
+}
+.seat {
+  background-color: #761818;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: orange;
+  transition: background-color 0.4s ease;
+}
+.booked {
+  background-color: red;
+}
+.seat.booked:hover {
+  transition: background-color 0.4s ease;
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.popup {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border-radius: 10%;
+  background-color: rgb(19, 54, 121);
+  padding: 20px;
+}
+.btn-book-seat {
+  width: 100%;
+  border-radius: 50%;
+  color: whitesmoke;
+  border: none;
+  background-color: black;
+}
+
+.popup .btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+h4 button {
+  background-color: transparent;
+  border: none;
+}
+
+td.white {
+  background-color: white;
+}
